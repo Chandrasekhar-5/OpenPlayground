@@ -249,7 +249,8 @@ function renderProjects() {
   if (paginatedItems.length === 0) {
     projectsContainer.innerHTML = `
             <div class="empty-state">
-                <h3>No projects found</h3>
+              <div class = "empty-icon">📂</div>
+                <h3>No projects found! </h3>
                 <p>Try adjusting your search or filter criteria</p>
             </div>
         `;
@@ -283,8 +284,8 @@ function renderProjects() {
                 <div class="card-header-flex">
                     <h3 class="card-heading">${project.title}</h3>
                     <span class="category-tag">${capitalize(
-                      project.category
-                    )}</span>
+      project.category
+    )}</span>
                 </div>
                 <p class="card-description">${project.description}</p>
                 <div class="card-tech">${techStackHtml}</div>
@@ -524,3 +525,31 @@ console.log(
   "%c🚀 Want to contribute? https://github.com/YadavAkhileshh/OpenPlayground",
   "color: #6366f1; font-size: 14px; font-weight: bold;"
 );
+
+
+// --- 1. Navbar Scroll Logic ---
+const navbar = document.getElementById('navbar');
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 50) {
+    navbar.classList.add('scrolled');
+  } else {
+    navbar.classList.remove('scrolled');
+  }
+});
+
+// --- 2. Fade Up Animation Trigger ---
+document.addEventListener('DOMContentLoaded', () => {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target); // Run once
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.fade-up').forEach(el => {
+    observer.observe(el);
+  });
+});
+
