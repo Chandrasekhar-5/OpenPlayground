@@ -792,6 +792,32 @@ html[data-theme="dark"] .section-badge {
     color: var(--text-muted);
 }
 
+.random-project-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-3) var(--space-5);
+    background: var(--gradient-primary);
+    color: white;
+    border: none;
+    border-radius: var(--radius-lg);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    margin-top: var(--space-4);
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+}
+
+.random-project-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(99, 102, 241, 0.4);
+}
+
+.random-project-btn:active {
+    transform: translateY(0);
+}
+
 /* ===============================
    Projects Section
    =============================== */

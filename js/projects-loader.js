@@ -172,6 +172,16 @@ class ProjectsLoader {
         });
     }
 
+    openRandomProject() {
+        if (this.projects.length === 0) return;
+        
+        const randomIndex = Math.floor(Math.random() * this.projects.length);
+        const randomProject = this.projects[randomIndex];
+        
+        // Navigate to the project
+        window.location.href = randomProject.link;
+    }
+
     submitRating(projectTitle, rating, review) {
         const key = this.sanitizeKey(projectTitle);
         if (!this.ratings[key]) {
@@ -360,6 +370,14 @@ class ProjectsLoader {
                 this.applyFilters();
             });
         });
+        
+        // Random project button
+        const randomBtn = document.getElementById('random-project-btn');
+        if (randomBtn) {
+            randomBtn.addEventListener('click', () => {
+                this.openRandomProject();
+            });
+        }
     }
 
     setupPagination() {
