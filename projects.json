@@ -1685,6 +1685,23 @@
     "coverStyle": "background: linear-gradient(135deg, #020617 0%, #22d3ee 100%); color:#ecfeff;"
   },
   {
+  "title": "GitHub Profile Score Finder",
+  "category": "utility",
+  "description": "A web-based tool that analyzes a GitHub user's profile and calculates a score based on repositories, stars, forks, followers, and activity using the GitHub API.",
+  "tech": ["HTML", "CSS", "JS"],
+  "link": "./projects/github-profile-score-finder/index.html",
+  "icon": "ri-github-line",
+  "coverStyle": "background: linear-gradient(135deg, #24292e 0%, #57606a 100%);"
+}
+]
+  "title": "Internet Speed Tester",
+  "category": "utility",
+  "description": "Test your internet speed with this interactive tool.",
+  "tech": ["HTML", "CSS", "JS"],
+  "link": "./projects/internet-speed-tester/index.html",
+  "icon": "ri-palette-line",
+  "coverStyle": "background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;"
+},
     "title": "Internet Speed Tester",
     "category": "utility",
     "description": "Test your internet speed with this interactive tool.",
@@ -2353,6 +2370,15 @@
     "icon": "ri-brain-line",
     "coverStyle": "background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;"
   },
+  {
+  "title": "GitHub Profile Score Finder",
+  "category": "utility",
+  "description": "A web-based tool that analyzes a GitHub user's profile and calculates a score based on repositories, stars, forks, followers, and activity using the GitHub API.",
+  "tech": ["HTML", "CSS", "JS"],
+  "link": "./projects/github-profile-score-finder/index.html",
+  "icon": "ri-github-line",
+  "coverStyle": "background: linear-gradient(135deg, #24292e 0%, #57606a 100%);"
+ },
   {
     "title": "Instagram Bio Suggestion",
     "category": "utility",
