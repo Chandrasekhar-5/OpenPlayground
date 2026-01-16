@@ -1,5 +1,9 @@
 [
   {
+    "title": "Random Learning Topic Picker",
+    "category": "utility",
+    "difficulty": "Beginner",
+    "description": "Discover random learning topics to spark curiosity and exploration. Get suggestions for concepts, skills, and ideas across programming, science, creativity, languages, and life skills.",
     "title": "Daily Affirmation Card",
     "category": "utility",
     "difficulty": "Beginner",
@@ -10,6 +14,9 @@
       "JavaScript",
       "LocalStorage"
     ],
+    "link": "./projects/RandomLearningTopicPicker/index.html",
+    "icon": "ri-lightbulb-flash-line",
+    "coverStyle": "background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;"
     "link": "./projects/DailyAffirmationCard/index.html",
     "icon": "ri-heart-line",
     "coverStyle": "background: linear-gradient(135deg, #fef3c7 0%, #fde68a 50%, #fcd34d 100%); color: #78350f;"
@@ -46,6 +53,21 @@
     "coverStyle": "background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); color: #5a6782;"
   },
   {
+  "title": "365 Days No-Zero Tracker",
+  "category": "productivity",
+  "difficulty": "Beginner",
+  "description": "A visual productivity tracker based on the No-Zero Days philosophy. Mark daily progress, maintain streaks, view monthly calendars, and stay motivated with dynamic quotes.",
+  "tech": [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "LocalStorage",
+    "Date API"
+  ],
+  "link": "./projects/NoZeroTracker/index.html",
+  "icon": "ri-calendar-check-line",
+  "coverStyle": "background: linear-gradient(135deg, #b5eaea 0%, #a8d8ea 50%, #ffd3b6 100%); color: #5a6b8c;"
+},
     "title": "365 Days No-Zero Tracker",
     "category": "productivity",
     "difficulty": "Beginner",
@@ -118,6 +140,19 @@
     "coverStyle": "background: linear-gradient(135deg, #8a7fcc 0%, #ff8ba7 100%); color: white;"
   },
   {
+    "title": "Minimal Countdown",
+    "category": "utility",
+    "difficulty": "Intermediate",
+    "description": "A visually minimal countdown timer that represents time using animated concentric circles and progress rings for hours, minutes, and seconds. Features smooth transitions, start/pause/reset controls, responsive design, and an intuitive visual time experience.",
+    "tech": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "link": "./projects/MinimalCountdown/index.html",
+    "icon": "ri-timer-line",
+    "coverStyle": "background: linear-gradient(135deg, #4a6fa5 0%, #8fb8e6 100%); color: white;"
+  },
     "title": "Micro Journal",
     "category": "utility",
     "difficulty": "Intermediate",
@@ -3430,6 +3465,8 @@
     "link": "./projects/flowlogic/index.html",
     "icon": "ri-flow-chart",
     "coverStyle": "background: linear-gradient(135deg, #fdf2f8 0%, #fbcfe8 50%, #fae8ff 100%); color: #581c87;"
+  }
+]
   },
   {
     "title": "UI As Enemy",
