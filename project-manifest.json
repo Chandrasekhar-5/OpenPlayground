@@ -1595,6 +1595,9 @@
       "folder": "EvoRefresh",
       "path": "./projects/evorefresh/project.json",
       "link": "./projects/evorefresh/index.html"
+      "folder": "Flownet",
+      "path": "./projects/flownet/project.json",
+      "link": "./projects/flownet/index.html"
      {
       "folder": "voice-forge",
       "path": "./projects/voice-forge/project.json",
