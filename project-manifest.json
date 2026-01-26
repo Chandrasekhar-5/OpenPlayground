@@ -844,6 +844,11 @@
       "link": "./projects/keyboard-key-detector/index.html"
     },
     {
+      "folder": "PhysicsAnimation",
+      "path": "./projects/PhysicsAnimation/project.json",
+      "link": "./projects/PhysicsAnimation/index.html"
+    },
+    {
       "folder": "KeyCode",
       "path": "./projects/KeyCode/project.json",
       "link": "./projects/KeyCode/index.html"
@@ -894,6 +899,11 @@
       "link": "./projects/LSB Image Steganography Tool/index.html"
     },
     {
+      "folder": "Neumorephism UI",
+      "path": "./projects/Neumorphism/project.json",
+      "link": "./projects/Neumorphism/index.html"
+    },
+    {
       "folder": "Lunar-lander",
       "path": "./projects/Lunar-lander/project.json",
       "link": "./projects/Lunar-lander/index.html"
@@ -927,6 +937,11 @@
       "folder": "Memory Card Flip Game",
       "path": "./projects/Memory Card Flip Game/project.json",
       "link": "./projects/Memory Card Flip Game/index.html"
+    },
+    {
+      "folder": "BubblePop",
+      "path": "./projects/BubblePop/project.json",
+      "link": "./projects/BubblePop/index.html"
     },
     {
       "folder": "memory-flip-game",
@@ -1919,6 +1934,14 @@
       "folder": "MyFolio",
       "path": "./projects/MyFolio/project.json",
       "link": "./projects/MyFolio/index.html"
+      "folder": "aesthetic-quote-generator",
+      "path": "./projects/aesthetic-quote-generator/project.json",
+      "link": "./projects/aesthetic-quote-generator/index.html"
+    },
+    {
+      "folder": "mousetone",
+      "path": "./projects/mousetone/project.json",
+      "link": "./projects/mousetone/index.html"
     }
   ]
 }
