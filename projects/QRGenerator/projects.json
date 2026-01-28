@@ -1,8 +1,8 @@
 {
-  "title": "SVG Blog Generator 📝",
+  "title": "Qr Code Generator",
   "category": "utility",
   "difficulty": "Beginner",
-  "description": "A responsive blog generator built with HTML, CSS, and JavaScript.",
+  "description": "A utility project built with HTML, CSS, and JavaScript that generates QR code of the URL provided.",
   "tech": [
     "HTML",
     "CSS",
