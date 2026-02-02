@@ -1,8 +1,8 @@
 {
-  "title": "Time Zone Converter",
+  "title": "Font Pair Generator",
   "category": "utility",
   "difficulty": "Intermediate",
-  "description": "Convert time between different time zones around the world",
+  "description": "Generate harmonious font pairings for web design projects",
   "tech": [
     "HTML",
     "CSS",
