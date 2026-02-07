@@ -17,3 +17,23 @@ input{
   font-weight:bold;
   cursor:pointer;
 }
+
+.card{
+  background:#1e293b;
+  padding:15px;
+  border-radius:10px;
+  margin:10px 0;
+}
+
+label{
+  display:block;
+  padding:10px;
+  background:#020617;
+  border-radius:6px;
+}
+
+button:hover{
+  opacity:0.85;
+  transform:scale(1.02);
+  transition:0.2s;
+}
