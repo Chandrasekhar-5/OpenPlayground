@@ -6,6 +6,11 @@ form.addEventListener("submit", function(e) {
   const hours = Number(document.getElementById("hours").value);
   const examDate = document.getElementById("examDate").value;
 
+  if (hours <= 0) {
+    alert("Daily hours must be greater than 0");
+    return;
+  }
+
   const user = {
     name,
     dailyHours: hours,

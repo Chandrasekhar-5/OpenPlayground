@@ -3,6 +3,12 @@ function generatePlan(){
   const user = JSON.parse(localStorage.getItem("user"));
   const syllabus = JSON.parse(localStorage.getItem("syllabus"));
 
+  if(Object.keys(syllabus).length === 0){
+  alert("Please add syllabus first");
+  return;
+}
+
+
   if(!user || !syllabus) return;
 
   const examDate = new Date(user.examDate);

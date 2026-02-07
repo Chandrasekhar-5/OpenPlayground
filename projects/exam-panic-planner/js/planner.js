@@ -27,6 +27,7 @@ else{
     }
 
     const div=document.createElement("div");
+    div.classList.add("card");
 
     div.innerHTML=`
       <label>
