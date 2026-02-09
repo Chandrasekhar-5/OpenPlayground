@@ -2007,9 +2007,14 @@
       "folder": "tetris-clone",
       "path": "./projects/tetris-clone/project.json",
       "link": "./projects/tetris-clone/index.html"
+    },
+    {
+      "folder": "weather-data-visualizer",
+      "path": "./projects/weather-data-visualizer/project.json",
+      "link": "./projects/weather-data-visualizer/index.html"
     }
   ],
   "version": "2.1",
   "generated": "2026-01-24T16:38:07.796Z",
-  "count": 367
+  "count": 368
 }
